@@ -813,5 +813,16 @@ h3.my-profession {
         max-width: 100%;
     }
 }
+/* Add better mobile navigation */
+@media (max-width: 768px) {
+    .aside {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+    
+    .aside.open {
+        transform: translateX(0);
+    }
+}
 
  

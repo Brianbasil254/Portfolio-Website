@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Basil Shiaba - Software Developer Portfolio</title>
-<meta name="description" content="Brian Basil Shiaba's portfolio. I'm a junior software developer with experience in web, Android, and desktop applications.">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <meta name="description"
+        content="Brian Basil Shiaba's portfolio. I'm a junior software developer with experience in web, Android, and desktop applications.">
 
     <! --=====CSS Files====-->
         <link rel="stylesheet" href="css/styles.css">
@@ -20,6 +23,7 @@
         <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
         <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
         <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+
 </head>
 
 <body class="dark">
@@ -33,38 +37,45 @@
             <div class="nav-toggler">
                 <span></span>
             </div>
+            <!-- Add active class handling in script.js -->
+
             <ul class="nav">
-                <li><a href="#" aria-label="Home" class="active"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" aria-label="Home" class="active"><i class="fa fa-home"
+                            aria-hidden="true"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
         <!-- ==== Aside End ===== -->
         <!-- ==== Main content start ===== -->
         <div class="main-content">
             <!-- ==== Home section start===== -->
-            <section class="home section ">
+            <section id="home" class="home section ">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, My name is <span class="name">Brian Basil Shiaba</span></h3>
                             <h3 class="my-profession">I am a <span class="typing">Software Developer</span></h3>
-                            <p> Iam a juniour Software Developer with extensive experience for over 2 years.My expertise
-                                is to create and design websites, web,android and desktop applications and many more ...
+                            <p> Welcome! I'm Brian Basil, a passionate web and mobile developer with a knack for
+                                creating intuitive and dynamic digital experiences. With a strong foundation in both
+                                front-end and back-end technologies, I specialize in crafting solutions that not only
+                                meet but exceed client expectations. Whether it's building a responsive website or a
+                                feature-rich mobile application, I thrive on turning complex challenges into elegant
+                                solutions
                             </p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
                         <div class="home-img padd-15">
-                            <img src="images/brian.JPG" alt="">
+                            <img src="images/brian.JPG" alt="Brian Basil" loading="lazy" width="300" height="300">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- ==== Home section end ===== -->
             <!-- ==== About section start===== -->
-            <section class="about section ">
+            <section id="about" class="about section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -75,10 +86,29 @@
                         <div class="about-content padd-15">
                             <div class="row">
                                 <div class="about-text padd-15">
-                                    <h3>I'm Basil Brian A <span> Juniour Software Developer</span></h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, tenetur?
-                                        Dolore, placeat excepturi recusandae ea minus vero quibusdam harum voluptatem?
-                                        Dicta molestias soluta saepe porro illum reiciendis sit natus fugit.</p>
+                                    <h3>I'm Basil Brian, A <span>Full-Stack Developer</span></h3>
+                                    <p>I'm a passionate full-stack developer with a unique blend of frontend and backend
+                                        expertise. My journey in technology began with web development, mastering React
+                                        for creating responsive user interfaces, while diving deep into backend
+                                        technologies with Node.js and Express. I've developed a strong foundation in
+                                        database management, working extensively with both MongoDB and MySQL to create
+                                        scalable data solutions.
+
+                                        What sets me apart is my versatility across different development domains.
+                                        Beyond web development, I've ventured into mobile development with Flutter and
+                                        Dart, creating cross-platform applications that combine beautiful interfaces
+                                        with robust functionality. My experience extends to Python and Django
+                                        development, where I've built secure and efficient web applications.
+
+                                        I'm particularly excited about the intersection of traditional development and
+                                        emerging technologies, having explored AI essentials to stay at the forefront of
+                                        technological advancement. My networking knowledge adds another layer to my
+                                        technical expertise, ensuring I create not just functional, but also secure and
+                                        well-architected solutions.
+
+                                        Whether it's crafting intuitive user interfaces, building robust backend
+                                        systems, or exploring new technologies, I bring a problem-solving mindset and a
+                                        commitment to creating impactful digital solutions.</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -122,7 +152,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                
+
                                     <!-- Backend Skills -->
                                     <h3 class="title">Backend Skills</h3>
                                     <div class="row">
@@ -196,63 +226,49 @@
                                             </div>
                                         </div>
                                     </div>
-                                  
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday : <span>08 Mar 2000</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age : <span>24</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Website : <span>www.domain.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>brianshiaba33@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree : <span>BSIT</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span>+254746756009</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City :<span>Nairobi</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Freelance : <span>Available</span></p>
-                                        </div>
-                                    </div>
 
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                    <div class="personal-info padd-15">
+                                        <div class="row">
+                                            <div class="info-item padd-15">
+                                                <p>Birthday : <span>08 Mar 2000</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Age : <span>24</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Website : <span>www.domain.com</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Email : <span>brianshiaba33@gmail.com</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Degree : <span>BSIT</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Phone : <span>+254746756009</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>City :<span>Nairobi</span></p>
+                                            </div>
+                                            <div class="info-item padd-15">
+                                                <p>Freelance : <span>Available</span></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="buttons padd-15">
+                                                <a href="#" class="btn">Download CV</a>
+                                                <a href="#contact" class="btn hire-me">Hire Me</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <! --======timeline item======-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i>2020 - 2024
-                                                        </h3>
-                                                        <h4 class="timeline-title">Bachelor of Science in Information
-                                                            Technology</h4>
-                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
-                                                            adipisicing elit. Neque cumque, obcaecati laboriosam facere
-                                                            nobis ipsum commodi repudiandae assumenda qui dicta omnis
-                                                            excepturi, laudantium optio. Dolores numquam eaque
-                                                            consequuntur aperiam tempora.</p>
-                                                    </div>
+                                <div class="row">
+                                    <div class="education padd-15">
+                                        <h3 class="title">Education</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
                                                     <! --======timeline item======-->
                                                         <div class="timeline-item">
                                                             <div class="circle-dot"></div>
@@ -260,11 +276,16 @@
                                                                 <i class="fa fa-calendar"></i>2020 - 2024
                                                             </h3>
                                                             <h4 class="timeline-title">Bachelor of Science in
-                                                                Information Technology</h4>
+                                                                Information
+                                                                Technology</h4>
                                                             <p class="timeline-text">Lorem ipsum dolor sit amet
-                                                                consectetur adipisicing elit. Neque cumque, laudantium
-                                                                optio. Dolores numquam eaque consequuntur aperiam
-                                                                tempora.</p>
+                                                                consectetur
+                                                                adipisicing elit. Neque cumque, obcaecati laboriosam
+                                                                facere
+                                                                nobis ipsum commodi repudiandae assumenda qui dicta
+                                                                omnis
+                                                                excepturi, laudantium optio. Dolores numquam eaque
+                                                                consequuntur aperiam tempora.</p>
                                                         </div>
                                                         <! --======timeline item======-->
                                                             <div class="timeline-item">
@@ -276,33 +297,52 @@
                                                                     Information Technology</h4>
                                                                 <p class="timeline-text">Lorem ipsum dolor sit amet
                                                                     consectetur adipisicing elit. Neque cumque,
-                                                                    laudantium optio. Dolores numquam eaque consequuntur
-                                                                    aperiam tempora.</p>
+                                                                    laudantium
+                                                                    optio. Dolores numquam eaque consequuntur aperiam
+                                                                    tempora.</p>
                                                             </div>
+                                                            <! --======timeline item======-->
+                                                                <div class="timeline-item">
+                                                                    <div class="circle-dot"></div>
+                                                                    <h3 class="timeline-date">
+                                                                        <i class="fa fa-calendar"></i>2020 - 2024
+                                                                    </h3>
+                                                                    <h4 class="timeline-title">Bachelor of Science in
+                                                                        Information Technology</h4>
+                                                                    <p class="timeline-text">Lorem ipsum dolor sit amet
+                                                                        consectetur adipisicing elit. Neque cumque,
+                                                                        laudantium optio. Dolores numquam eaque
+                                                                        consequuntur
+                                                                        aperiam tempora.</p>
+                                                                </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <! --======timeline item======-->
-                                                    <div class="timeline-item">
-                                                        <div class="circle-dot"></div>
-                                                        <h3 class="timeline-date">
-                                                            <i class="fa fa-calendar"></i>2020 - 2024
-                                                        </h3>
-                                                        <h4 class="timeline-title">Bachelor of Science in Information
-                                                            Technology</h4>
-                                                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur
-                                                            adipisicing elit. Neque cumque, obcaecati laboriosam facere
-                                                            nobis ipsum commodi repudiandae assumenda qui dicta omnis
-                                                            excepturi, laudantium optio. Dolores numquam eaque
-                                                            consequuntur aperiam tempora.</p>
-                                                    </div>
-                                                    <!--======timeline item======-->
+                                    <div class="experience padd-15">
+                                        <h3 class="title">Experience</h3>
+                                        <div class="row">
+                                            <div class="timeline-box padd-15">
+                                                <div class="timeline shadow-dark">
+                                                    <! --======timeline item======-->
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot"></div>
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i>2020 - 2024
+                                                            </h3>
+                                                            <h4 class="timeline-title">Bachelor of Science in
+                                                                Information
+                                                                Technology</h4>
+                                                            <p class="timeline-text">Lorem ipsum dolor sit amet
+                                                                consectetur
+                                                                adipisicing elit. Neque cumque, obcaecati laboriosam
+                                                                facere
+                                                                nobis ipsum commodi repudiandae assumenda qui dicta
+                                                                omnis
+                                                                excepturi, laudantium optio. Dolores numquam eaque
+                                                                consequuntur aperiam tempora.</p>
+                                                        </div>
+                                                        <!--======timeline item======-->
                                                         <div class="timeline-item">
                                                             <div class="circle-dot"></div>
                                                             <h3 class="timeline-date">
@@ -316,29 +356,29 @@
                                                                 tempora.</p>
                                                         </div>
                                                         <!---- --======timeline item======-->
-                                                            <div class="timeline-item">
-                                                                <div class="circle-dot"></div>
-                                                                <h3 class="timeline-date">
-                                                                    <i class="fa fa-calendar"></i>2020 - 2024
-                                                                </h3>
-                                                                <h4 class="timeline-title">Bachelor of Science in
-                                                                    Information Technology</h4>
-                                                                <p class="timeline-text">Lorem ipsum dolor sit amet
-                                                                    consectetur adipisicing elit. Neque cumque,
-                                                                    laudantium optio. Dolores numquam eaque consequuntur
-                                                                    aperiam tempora.</p>
-                                                            </div>
+                                                        <div class="timeline-item">
+                                                            <div class="circle-dot"></div>
+                                                            <h3 class="timeline-date">
+                                                                <i class="fa fa-calendar"></i>2020 - 2024
+                                                            </h3>
+                                                            <h4 class="timeline-title">Bachelor of Science in
+                                                                Information Technology</h4>
+                                                            <p class="timeline-text">Lorem ipsum dolor sit amet
+                                                                consectetur adipisicing elit. Neque cumque,
+                                                                laudantium optio. Dolores numquam eaque consequuntur
+                                                                aperiam tempora.</p>
+                                                        </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
             </section>
             <!-- ==== About section End===== -->
             <!-- ==== Services section Start===== -->
-            <section class="service section ">
+            <section id="services" class="service section ">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -352,7 +392,7 @@
                                 <div class="icon">
                                     <i class="fa fa-mobile-alt"></i>
                                 </div>
-                                <h4>Web Design</h4>
+                                <h4>Web Development</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
@@ -417,7 +457,7 @@
             </section>
             <!-- ==== Services section End===== -->
             <!-- ==== Portfolio section Start===== -->
-            <section class="portfolio section">
+            <section id="portfolio" class="portfolio section">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -485,7 +525,7 @@
                         </div>
                         <!--===== portfolio item end====-->
                         <!-- ==== Contact  Section Start===== -->
-                        <section class="contact section">
+                        <section id="contact" class="contact section">
                             <div class="container">
                                 <div class="row">
                                     <div class="section-title padd-15">
@@ -534,54 +574,54 @@
                                 </div>
                                 <h3 class="contact-title padd-15">SEND ME AN EMAIL </h3>
                                 <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
-                                <!--====Contact Form====-->
-                                <div class="row">
-                                    <div class="contact-form padd-15">
-                                        <div class="row">
-                                            <div class="form-item col-6 padd-15">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Name">
-                                                </div>
-                                            </div>
-                                            <div class="form-item col-6 padd-15">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" placeholder="Email">
-                                                </div>
+
+                                <!-- Contact Form -->
+                                <form class="contact-form" method="POST" action="http://localhost:3000/submit">
+                                    <div class="row">
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" placeholder="Name"
+                                                    autocomplete="name" required>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="form-item col-12 padd-15">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Subject">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="form-item col-12 padd-15">
-                                                <div class="form-group">
-                                                    <textarea name="" id="" class="form-control"
-                                                        placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="form-item col-12 padd-15">
-                                                <button type="submit" class="btn">Send Message</button>
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control"
+                                                    placeholder="Email" autocomplete="email" required>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" name="subject" class="form-control"
+                                                    placeholder="Subject" autocomplete="off" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <textarea name="message" class="form-control" placeholder="Message"
+                                                    autocomplete="off" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+
+
                             </div>
                     </div>
             </section>
-            <!-- ==== Contact  Section End===== -->
-
+            <!-- ==== Portfolio section End===== -->
         </div>
-    </div>
-    </section>
-    <!-- ==== Portfolio section End===== -->
-    </div>
-    <!-- ==== Main content End ===== -->
+        <!-- ==== Main content End ===== -->
     </div>
     <!-- ==== Main container End ===== -->
     <!--=====Style Switcher Start=====-->
